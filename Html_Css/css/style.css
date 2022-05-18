@@ -27,5 +27,7 @@ h2 {
 
 .divImgens{
     display: inline-block;
+    width: 220px;
+    padding-right: 10px;
 }
 
