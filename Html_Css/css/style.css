@@ -1,8 +1,17 @@
-h2, h1 {
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3, h1 {
     margin-left: 30px;
 }
 
 .central{
+    display: flex;
+    flex-direction:row; 
+
     width: 100%;
     border: 5px solid red;
 
@@ -10,25 +19,34 @@ h2, h1 {
 }
 
 .divMain{
-    border: 1px solid purple;
-    display: inline-block;
     width: 49%;
-    
+    padding: 15px; 
+}
+
+.divMain p {
+    text-align: justify;
 }
 
 .divMain2{
     width: 49%;
-
-    border: 1px solid black;
-    display: inline-block;
 }
+
+
+.divTexto2{
+
+}
+
 
 .divImgens{
     display: inline-block;
-    width: 150px;
-    padding-right: 10px;
+    width: 32%;
     padding-left: 10px;
+    padding-right: 10px;
+
 }
+
+
+
 
 ul{
     list-style: none;
