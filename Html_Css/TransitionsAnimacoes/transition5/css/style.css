@@ -9,6 +9,7 @@ body{
     width: 100vw;
     background-color: rgb(53,53,53);
     display: flex;
+    justify-content:center;
     align-items: center;
 }
 
