@@ -29,6 +29,7 @@ h3, h1 {
 
 .divMain2{
     width: 49%;
+    
 }
 
 .divImgens{
@@ -36,6 +37,7 @@ h3, h1 {
     width: 32%;
     padding-left: 10px;
     padding-right: 10px;
+    border: 1px solid black;
 
 }
 
