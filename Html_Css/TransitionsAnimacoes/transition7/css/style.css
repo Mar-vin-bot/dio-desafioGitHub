@@ -229,7 +229,7 @@ h1, h2{
         height: 300px;
         width: 400px;
         margin: 3rem 0 0;
-        background-image: url('/Html_Css/Mypage/img/css.png');
+        background-image: url('/transicao2/img/landscape.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -278,13 +278,71 @@ h1, h2{
 
     }
 
-    .card:hover{
-        filter:unset;
-
-    }
-
     .card:hover > .card-wrapper::before{
         opacity: 1;
         width: 350px;
         height: 250px;
     }
+
+    .card:hover > .card-wrapper{
+       font-size: 14px;
+       opacity: 1;
+       visibility:visible;
+    }
+
+    .footer {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: purple;
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 800px){
+        .social-media{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container{
+            margin-top: 0;
+        }
+
+        .card-container{
+            flex-direction: column;
+        }
+
+        .card-container{
+            flex-direction: column;
+        }
+
+        .container .card-wrapper:nth-child(1){
+            flex-direction: column-reverse;
+        }
+
+        .container .card-wrapper:nth-child(2){
+            flex-direction: column-reverse;
+        }
+
+        .card{
+            height: 250px;
+            width: 250;
+
+        }
+
+        .card-text{
+            width: 90%;
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .card:hover > .card-wrapper::before {
+            height: 190px;
+            width: 190px;
+        }
+    }
+    
+
