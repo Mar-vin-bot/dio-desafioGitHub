@@ -249,7 +249,7 @@ h1, h2{
     }
 
     .card-wrapper::before {
-        content: "";
+        content: " ";
         position: absolute;
         height: 100px;
         width: 100px;
@@ -260,7 +260,7 @@ h1, h2{
     }
 
     .card-wrapper h2{
-        font-size: none40px;
+        font-size: 40px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: 0;
