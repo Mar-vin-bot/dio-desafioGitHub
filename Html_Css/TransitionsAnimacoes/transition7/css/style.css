@@ -186,6 +186,7 @@ h1, h2{
 
     #toggle:checked +.checkbox{
         background-color: white;
+        
     }
 
 
@@ -198,11 +199,6 @@ h1, h2{
         visibility: visible;
         opacity: 1;
     }
-
-
-
-
-
 
 
 
@@ -233,6 +229,8 @@ h1, h2{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display:flex;
+        justify-content:center;
         align-items: center;
         filter: grayscale(0.5);
         color: white;
@@ -242,14 +240,23 @@ h1, h2{
 
     .card-text{
         width: 40%;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: sans-serif;
         letter-spacing: 1px;
         color: gray;
 
     }
 
+    .card-wrapper{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+    }
+
     .card-wrapper::before {
-        content: " ";
+        content: '';
         position: absolute;
         height: 100px;
         width: 100px;
@@ -278,11 +285,21 @@ h1, h2{
 
     }
 
+    .card:hover {
+        filter: unset;
+    }
+
     .card:hover > .card-wrapper::before{
         opacity: 1;
         width: 350px;
         height: 250px;
     }
+
+
+
+
+
+
 
     .card:hover > .card-wrapper{
        font-size: 14px;
