@@ -20,3 +20,4 @@ var y = 1;
 var saida = y ==x ? "são =": "são !=";
 console.log(saida)
 */
+
