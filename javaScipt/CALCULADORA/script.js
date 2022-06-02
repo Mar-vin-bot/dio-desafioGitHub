@@ -42,9 +42,9 @@ function calculadora() {
         }
 
         function novaOperacao() {
-            let opc = prompt("Digite 1 para continuar")
+            let opc = prompt("Digite 1 para continuar.\n Qualquer tecla para sair")
 
-            opc == 1 ? calculadora() : alert("Obrigado")
+            opc == 1 ? calculadora() : alert("Obrigado!")
         }
 
 
