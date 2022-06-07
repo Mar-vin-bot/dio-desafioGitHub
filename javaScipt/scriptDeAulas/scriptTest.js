@@ -16,6 +16,4 @@ n2 = Number (prompt(" digite"))
 
 total = n1 + n2
 
-
-
 console.log(total)
