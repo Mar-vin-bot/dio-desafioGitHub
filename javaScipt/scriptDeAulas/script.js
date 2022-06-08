@@ -1,7 +1,7 @@
-function comparaNumeros(num1, num2) {
+/*function comparaNumeros(num1, num2) {
     //const validaCondicaoIgual = validaCondicaoIgual(num1, num2);
 
-
+}*/
 
 function numIgualOuDiferente(num1, num2) {
     let verifica = num1 === num2;
@@ -29,6 +29,8 @@ function resultadoSomaMaioMenor(soma, verifica) {
 
 }
 
-}
-console.log(comparaNumeros(1,2));
+
+console.log(numIgualOuDiferente(1,2));
+console.log(segundaCondicao(1,2));
+console.log(resultadoSomaMaioMenor(1,2));
 
