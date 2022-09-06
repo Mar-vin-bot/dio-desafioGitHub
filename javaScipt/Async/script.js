@@ -13,6 +13,7 @@ const getCats = async () => {
     }
 
 };
+//ola mundo de hoje
 
 const loadImg = async () => {
     catImg.src = await getCats();
