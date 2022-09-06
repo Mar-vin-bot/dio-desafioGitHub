@@ -2,11 +2,11 @@
 // a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print para imprimir a saída (output) de dados e já pula uma linha ("\n")
 // Abaixo segue um exemplo de código que você pode ou não utilizar
 
-let input = gets();
+//let input = gets();
 
-let qtdEntradas = parseInt(input);
-let nivelEnergia;
-
+//let qtdEntradas = parseInt(input);
+//let nivelEnergia;
+/*
 for(let i = 0; i < qtdEntradas; i++){
     input = gets();
     nivelEnergia = parseInt(input);
@@ -17,5 +17,22 @@ for(let i = 0; i < qtdEntradas; i++){
         print   ("Inseto")
     }
 }
+*/
 
 //Resolva o desafios nos espaços em branco
+
+let qtdEntradas = Number(prompt("Quantas pessoas"));
+
+
+for(let i = 0; i < qtdEntradas; i++){
+
+    let nivelEnergia = parseInt(input);
+
+    if( nivelEnergia > 8000){
+        print   ("Mais de 8000!")
+    }else{
+        print   ("Inseto")
+    }
+
+
+}
